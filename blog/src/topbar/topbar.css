@@ -1,0 +1,22 @@
+.top
+{
+    width: 100%;
+    top: 50px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    display: flex;
+    font-family: 'Josefin Sans', serif;
+}
+
+.topLeft, .topRight
+{
+    flex: 3;
+}
+
+.topCenter
+{
+    flex: 6;
+}
+
+
