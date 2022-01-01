@@ -7,6 +7,7 @@
     align-items: center;
     display: flex;
     font-family: 'Josefin Sans', serif;
+    z-index: 500;
 }
 
 .topLeft, .topRight
