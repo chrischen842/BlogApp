@@ -54,8 +54,8 @@
 
 .topSearchIcon
 {
-    font-size: 18px;
-    color: lightslategray;
+    font-size: 20px;
+    margin-left: 10px;
+    color: lightslategrey; 
     cursor: pointer;
-    margin-left: 15px;
 }

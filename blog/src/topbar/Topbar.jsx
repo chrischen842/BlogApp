@@ -19,7 +19,8 @@ export default function Topbar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img className='topImage'
+                <img 
+                    className='topImage'
                     src="static/model.png" 
                     alt="" 
                 />

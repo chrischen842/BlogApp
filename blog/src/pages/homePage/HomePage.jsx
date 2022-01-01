@@ -5,7 +5,6 @@ export default function HomePage() {
     return (
         <div className='homePage'>
             <Header/>
-            homepage
         </div>
     )
 }
