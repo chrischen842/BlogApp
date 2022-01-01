@@ -26,6 +26,7 @@
     color: lightslategrey; 
     cursor: pointer;
 }
+
 .topImage
 {
     width: 40px;
@@ -34,5 +35,27 @@
     object-fit: cover;
 }
 
+.topListContainer
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.topListItem
+{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
 
+.topSearchIcon
+{
+    font-size: 18px;
+    color: lightslategray;
+    cursor: pointer;
+    margin-left: 15px;
+}

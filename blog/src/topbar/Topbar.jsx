@@ -10,7 +10,7 @@ export default function Topbar() {
                 <i className= "icon fab fa-instagram-square"></i>
             </div>
             <div className="topMiddle">
-                <ul className="topList">
+                <ul className="topListContainer">
                     <li className='topListItem'>HOME</li>
                     <li className='topListItem'>ABOUT</li>
                     <li className='topListItem'>CONTACT</li>
