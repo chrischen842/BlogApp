@@ -1,4 +1,65 @@
 .loginPage
 {
-    
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(191, 142, 196, 0.5)
+        ),
+        url("../../../public/static/background.png");
+    background-size: cover;
+}
+
+.loginTitle
+{
+    font-size: 50px;
+}
+
+.loginForm
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label
+{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.loginInput
+{
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.loginButton
+{
+    margin-top: 20px;
+    cursor: pointer;
+    height: 25px;
+    background-color: rgb(90, 0, 110);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerButton
+{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(90, 0, 110);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-repeat: 10px;
+    border-radius: 10px;
 }
