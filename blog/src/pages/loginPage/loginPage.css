@@ -35,8 +35,12 @@
 {
     padding: 10px;
     border-color: white;
-    border-radius: 5px;
     border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
 }
 
 .loginButton
@@ -60,6 +64,5 @@
     color: white;
     padding: 10px;
     cursor: pointer;
-    background-repeat: 10px;
     border-radius: 10px;
 }
