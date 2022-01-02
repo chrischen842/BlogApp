@@ -1,6 +1,7 @@
 import "./loginPage.css"
 
-export default function LoginPage() {
+export default function LoginPage() 
+{
     return (
         <div className='loginPage'>
             <span className="loginTitle">Login</span>
@@ -11,7 +12,7 @@ export default function LoginPage() {
                 <input type="password" className="loginInput" placeholder="Enter your password"/>
                 <button className="loginButton">Login</button>
             </form>
-            <button className="registerButton">Register</button>
+            <button className="rloginButton">Sign Up</button>
         </div>
     )
 }
