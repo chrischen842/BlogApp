@@ -72,6 +72,11 @@
     margin-top: 20px;
 }
 
+.settingsInput
+{
+    width: 30%;
+}
+
 .settingsForm > input
 {
     color: gray;
@@ -93,4 +98,7 @@
     padding: 10px;
     margin-top: 20px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -3,7 +3,7 @@ import './topbar.css'
 
 export default function Topbar() 
 {
-    const checkUser = false;
+    const checkUser = true;
 
     return (
         <div className='top'>
@@ -34,7 +34,7 @@ export default function Topbar()
             </div>
             <div className="topRight">
                 {
-                    checkUser ? (<img className='topImage'src="static/model.png" alt="" />) : (
+                    checkUser ? (<Link className='link' to="/Settings"><img className='topImage'src="static/model.png" alt="" /></Link>) : (
                         <ul className='topListContainer'>
                             <li className='topListItem'>
                                 <Link className='link' to="/loginPage">Login</Link>

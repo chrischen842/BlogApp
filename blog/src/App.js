@@ -6,12 +6,12 @@ import Settings from "./pages/settings/Settings";
 import LoginPage from "./pages/loginPage/LoginPage";
 import RegisterPage from "./pages/registerPage/RegisterPage";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() 
 {
   
-  const checkUser = false;
+  const checkUser = true;
 
   return (
     <Router>
@@ -27,10 +27,10 @@ function App()
           {checkUser ? <HomePage/> : <LoginPage />}
         </Route>
         <Route path="/Write">
-          {checkUser ? <Write/> : <RegisterPage />}  
+          {checkUser ? <Write/> : <LoginPage />}  
         </Route>
         <Route path="/Settings">
-          {checkUser ? <Settings/> : <RegisterPage />}
+          {checkUser ? <Settings/> : <LoginPage />}
         </Route>
         <Route path="/post/:postId">
               <Single />
