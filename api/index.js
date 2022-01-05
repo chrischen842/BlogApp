@@ -1,15 +1,22 @@
 const express = require('express');
 const app = express();
-const dotenv = require("dotenv")
-const mongoose = require("mongoose")
+const dotenv = require("dotenv");
+const mongoose = require("mongoose");
+const authRoute = require("./routes/auth");
 
 dotenv.config();
+app.use(express.json());
 
-mongoose.connect(process.env.MONGO,{
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(console.log("connection established")).catch((err) => console.log(err));
+mongoose
+    .connect(process.env.MONGO,{
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    })
+    .then(console.log("connection established"))
+    .catch((err) => console.log(err));
+
+app.use("/api/auth", authRoute);
 
 app.listen("80", () => {
-    console.log("I am running")
+    console.log("I am running");
 });
