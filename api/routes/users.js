@@ -32,7 +32,7 @@ router.put("/:id", async (req, res) =>
     {
       res.status(401).json("You can only update your own account!");
     }
-  });
+});
 
 router.delete("/:id", async (req, res) => 
 {
