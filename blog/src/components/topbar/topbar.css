@@ -1,42 +1,47 @@
-.top
+.top 
 {
     width: 100%;
-    top: 50px;
+    height: 50px;
+    background-color: white;
     position: sticky;
     top: 0;
-    align-items: center;
     display: flex;
-    font-family: 'Josefin Sans', serif;
-    z-index: 500;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
 }
-
-.topLeft, .topRight
+  
+.topLeft,.topRight 
 {
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.topMiddle
+  
+.topCenter 
 {
     flex: 6;
 }
-
-.icon
+  
+.topIcon 
 {
     font-size: 20px;
     margin-right: 10px;
-    color: lightslategrey; 
+    color: #444;
     cursor: pointer;
 }
-
-.topImage
+  
+.topImg 
 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
 }
-
-.topListContainer
+  
+.topList 
 {
     display: flex;
     justify-content: center;
@@ -44,19 +49,19 @@
     padding: 0;
     list-style: none;
 }
-
-.topListItem
+  
+.topListItem 
 {
     margin-right: 20px;
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
 }
-
-.topSearchIcon
+  
+.topSearchIcon 
 {
-    font-size: 20px;
-    margin-left: 10px;
-    color: lightslategrey; 
+    font-size: 18px;
+    color: #666;
     cursor: pointer;
+    margin-left: 15px;
 }
