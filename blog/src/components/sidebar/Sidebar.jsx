@@ -23,8 +23,7 @@ export default function Sidebar()
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+          Hey, I am a 20 year old software engineering student and this is a side project I created using monodb, javascript, and react! This is a fully functional blog website!
         </p>
       </div>
       <div className="sidebarItem">
